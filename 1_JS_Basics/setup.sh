@@ -3,5 +3,5 @@
 #cd ~/;
 
 git clone https://github.com/llevkin/katacoda-scenarios.git .;
-ln -s ~/katacoda-scenarios/1_JS_Basics/src ~/src;
+ln -s ~/tutorial/1_JS_Basics/src ~/src;
 cd ~/;
