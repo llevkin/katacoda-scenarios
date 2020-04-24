@@ -30,7 +30,7 @@
         "hideHiddenFiles": true,
         "uilayout": "editor-terminal",
         "uisettings": "javascript",
-        "uieditorpath": "/home/scrapbook/src"
+        "uieditorpath": "/home/scrapbook/data"
     },
     "backend": {
         "imageid": "node"
