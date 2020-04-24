@@ -13,4 +13,4 @@ catch (e) {
     console.log(4, `Error: ${e.message}`);
 }
 
-console.log(BigInt(b) + a);
+console.log(5, BigInt(b) + a);
