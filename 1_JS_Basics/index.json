@@ -5,11 +5,11 @@
     "details": {
         "steps": [
             {
-                "text": "step1.md",
+                "text": "content.md",
                 "code": "setup.sh"
             },
             {
-                "text": "step2.md"
+                "text": "1.evolution.md"
             }
         ],
         "intro": {
