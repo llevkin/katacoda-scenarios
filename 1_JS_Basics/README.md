@@ -1,7 +1,7 @@
 # 1. Основы JS
 
 1. Эволюция языка, немного истории
-    - [test][id]
+    - [test] [1]
     - [ES1-4](https://github.com/llevkin/katacoda-scenarios/blob/master/1_JS_Basics/src/1.%20%D0%AD%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D1%8F%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%B0%2C%20%D0%BD%D0%B5%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8/ES1-4.md)
     - [ES5](https://github.com/llevkin/katacoda-scenarios/blob/master/1_JS_Basics/src/1.%20%D0%AD%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D1%8F%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%B0%2C%20%D0%BD%D0%B5%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8/ES5.md)
     - [ES6/2015](https://github.com/llevkin/katacoda-scenarios/blob/master/1_JS_Basics/src/1.%20%D0%AD%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D1%8F%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%B0%2C%20%D0%BD%D0%B5%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8/ES2015.md)
@@ -67,7 +67,7 @@
     - Итератор (Symbol.iterator)
 7. Устаревшие конструкции, что применять не стоит.
 
-[id]: test 
+[1]: test 
 # test
 
 123
