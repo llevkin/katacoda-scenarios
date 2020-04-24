@@ -7,6 +7,9 @@
             {
                 "text": "step1.md",
                 "code": "setup.sh"
+            },
+            {
+                "text": "step2.md"
             }
         ],
         "intro": {
