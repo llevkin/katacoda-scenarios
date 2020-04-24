@@ -15,7 +15,7 @@
         }
     },
     "files": [
-        "app.js", "index.js"
+        "data/app.js", "data/index.js"
     ],
     "environment": {
         "hidefinish": true,
