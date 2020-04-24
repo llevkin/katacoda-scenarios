@@ -1,1 +1,0 @@
-# Katacoda Hello World 2
