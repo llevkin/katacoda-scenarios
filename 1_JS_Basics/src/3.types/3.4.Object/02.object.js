@@ -17,7 +17,6 @@ let a = {
 
 };
 
-console.log('\nСоздание объектов со свойствами, методами, геттерами и сеттерами:');
 console.log(a);
 console.log(a.method());
 console.log(a.value);
