@@ -13,3 +13,5 @@ a = new Number(1);
 b = new Number(1);
 
 console.log(a, b, a === b);
+
+console.log(typeof a);
