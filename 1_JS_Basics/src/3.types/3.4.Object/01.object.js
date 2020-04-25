@@ -1,4 +1,4 @@
-let a = {};
+let b, a = {};
 
 console.log(a);
 
@@ -32,3 +32,15 @@ console.log(a.method());
 console.log(a.value);
 a.value = 100;
 console.log(a.value);
+
+a = new Object();
+
+a.field1 = 1;
+a.field2 = 'test';
+
+console.log(a);
+
+a = { a: 1 };
+b = { a: 1 };
+
+console.log(a === b);
