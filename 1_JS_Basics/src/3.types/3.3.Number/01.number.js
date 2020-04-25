@@ -1,7 +1,8 @@
 let a = 1,
-    b = 2;
+    b = 2.564,
+    c = 2e6;
 
-console.log(a, b, a !== b);
+console.log(a, b, c, a !== b);
 
 a = Number(1);
 b = Number(1);
