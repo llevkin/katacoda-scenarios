@@ -1,6 +1,6 @@
 let a = 2, b = 2;
 
-a += b;
+a += b; // эквивалентно - a = a + b;
 
 console.log(a);
 
