@@ -1,3 +1,4 @@
+// Warning! Node v14 required!
 let object = {
     a: {
         b: {
