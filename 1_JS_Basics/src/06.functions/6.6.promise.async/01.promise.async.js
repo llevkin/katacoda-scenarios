@@ -1,3 +1,4 @@
+/* Зачем нужны обещания, callback-hell */
 let fs   = require('fs'),
     zlib = require('zlib');
 
