@@ -51,7 +51,7 @@
         "hideHiddenFiles": true,
         "uilayout": "editor-terminal",
         "uisettings": "javascript",
-        "uieditorpath": "/root/data"
+        "uieditorpath": "/root/data/src"
     },
     "backend": {
         "imageid": "node"
