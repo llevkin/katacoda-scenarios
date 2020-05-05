@@ -1,5 +1,5 @@
-let a = 0B010;
+let a = 9;
 
 a = ~a;
 
-console.log(a.toString(2));
+console.log(a);
