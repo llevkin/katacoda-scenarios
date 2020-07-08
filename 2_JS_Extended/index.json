@@ -1,0 +1,32 @@
+{
+    "noindex": true,
+    "title": "JavaScript Extended",
+    "description": "",
+    "details": {
+        "steps": [
+            {
+                "text": "00.content.md",
+                "code": "setup.sh"
+            },
+            {
+                "text": "01.map.set.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "credits": ""
+        }
+    },
+    "files": [
+    ],
+    "environment": {
+        "hidefinish": true,
+        "hideHiddenFiles": true,
+        "uilayout": "editor-terminal",
+        "uisettings": "javascript",
+        "uieditorpath": "/root/data"
+    },
+    "backend": {
+        "imageid": "node"
+    }
+}
