@@ -33,6 +33,6 @@
         "uieditorpath": "/root/data/src"
     },
     "backend": {
-        "imageid": "node:12-alpine"
+        "imageid": "node"
     }
 }
