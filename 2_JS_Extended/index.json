@@ -10,6 +10,9 @@
             },
             {
                 "text": "01.map.set.md"
+            },
+            {
+                "text": "02.proxy.md"
             }
         ],
         "intro": {
@@ -24,7 +27,7 @@
         "hideHiddenFiles": true,
         "uilayout": "editor-terminal",
         "uisettings": "javascript",
-        "uieditorpath": "/root/data"
+        "uieditorpath": "/root/data/src"
     },
     "backend": {
         "imageid": "node"
