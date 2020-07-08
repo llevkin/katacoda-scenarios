@@ -9,10 +9,13 @@
                 "code": "setup.sh"
             },
             {
-                "text": "01.map.set.md"
+                "text": "01.classes.md"
             },
             {
-                "text": "02.proxy.md"
+                "text": "02.map.set.md"
+            },
+            {
+                "text": "03.proxy.md"
             }
         ],
         "intro": {
@@ -30,6 +33,6 @@
         "uieditorpath": "/root/data/src"
     },
     "backend": {
-        "imageid": "node"
+        "imageid": "node:12-alpine"
     }
 }
