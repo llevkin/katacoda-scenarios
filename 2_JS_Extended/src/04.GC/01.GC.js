@@ -11,6 +11,8 @@ function memory(text) {
     console.log(text + ' ' + (process.memoryUsage().heapUsed / Math.pow(1024, 2)).toFixed(2) + 'mb');
 }
 
+console.log(`Node version: ${process.version}`);
+
 memory(`(GC) init [items: ${i}]:`);
 
 for (; i < 1e3; i++)
