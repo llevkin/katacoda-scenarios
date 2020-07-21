@@ -16,6 +16,9 @@
             },
             {
                 "text": "03.proxy.reflect.md"
+            },
+            {
+                "text": "04.GC.md"
             }
         ],
         "intro": {
