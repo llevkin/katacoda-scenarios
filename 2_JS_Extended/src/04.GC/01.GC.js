@@ -13,7 +13,7 @@ function memory(text) {
 
 memory('init:');
 
-for (; i < 3e4; i++)
+for (; i < 2e4; i++)
     add(new Array(10000).join('some big data'));
 
 memory(`(GC) link exists [items: ${i}]:`);
