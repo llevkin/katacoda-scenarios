@@ -11,7 +11,7 @@ function memory(text) {
     console.log(text + ' ' + (process.memoryUsage().heapUsed / Math.pow(1024, 2)).toFixed(2) + 'mb');
 }
 
-memory('init:');
+memory(`(GC) init [items: ${i}]:`);
 
 for (; i < 1e3; i++)
     add(new Array(10000).join('some big data'));
