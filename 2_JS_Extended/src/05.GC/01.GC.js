@@ -1,25 +1,14 @@
-let i   = 0,
-    arr = [];
+const { create, memory } = require('./00.helpers');
 
-function add(value) {
-    arr.push(value);
-}
+let arr;
 
-function memory(text) {
-    global.gc();
-    console.log(text + ' ' + (process.memoryUsage().heapUsed / Math.pow(1024, 2)).toFixed(2) + 'mb');
-}
+memory(`(GC) init:`);
 
-console.log(`Node version: ${process.version}`);
+arr = create();
 
-memory(`(GC) init [items: ${i}]:`);
-
-for (; i < 1e3; i++)
-    add(new Array(10000).join('some big data'));
-
-memory(`(GC) link exists [items: ${i}]:`);
+memory(`(GC) array created, link exists:`);
 
 arr = null;
 
-memory(`(GC) link not exists [items: ${i}]:`);
+memory(`(GC) link not exists:`);
 
