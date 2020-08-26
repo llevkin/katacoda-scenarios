@@ -1,6 +1,5 @@
-let i    = 0;
-let arr  = [];
-let wait = time => new Promise(resolve => setTimeout(resolve, time));
+let i   = 0,
+    arr = [];
 
 function add(value) {
     arr.push(value);
