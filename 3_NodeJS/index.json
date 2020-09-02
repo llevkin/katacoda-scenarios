@@ -1,0 +1,35 @@
+{
+    "noindex": true,
+    "title": "JavaScript Extended",
+    "description": "",
+    "details": {
+        "steps": [
+            {
+                "text": "00.content.md",
+                "code": "setup.sh"
+            },
+            {
+                "text": "01.event-loop.md"
+            },
+            {
+                "text": "02.modules.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "credits": ""
+        }
+    },
+    "files": [
+    ],
+    "environment": {
+        "hidefinish": true,
+        "hideHiddenFiles": true,
+        "uilayout": "editor-terminal",
+        "uisettings": "javascript",
+        "uieditorpath": "/root/data/src"
+    },
+    "backend": {
+        "imageid": "node"
+    }
+}
