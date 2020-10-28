@@ -1,0 +1,29 @@
+{
+  "koa": {
+    "port": 3000
+  },
+  "rabbitmq": {
+    "host": "amqp://localhost:5672",
+    "queue": "catalogQueue"
+  },
+  "mongo": {
+    "host": "mongodb://localhost:27017/database",
+    "collection": "catalog"
+  },
+  "elastic": {
+    "options": {
+      "node": "http://localhost:9200"
+    },
+    "index": "catalog"
+  },
+  "postgres": {
+    "options": {
+      "host": "localhost",
+      "port": 5432,
+      "user": "postgres",
+      "password": "postgres",
+      "database": "postgres"
+    },
+    "table": "catalog"
+  }
+}

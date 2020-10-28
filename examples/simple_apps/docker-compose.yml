@@ -1,0 +1,27 @@
+version: "2.1"
+services:
+  rabbitmq:
+    image: rabbitmq:3.7.8-management
+    network_mode: "host"
+    environment:
+      - RABBITMQ_DEFAULT_VHOST=/
+  elasticsearch:
+    image: elasticsearch:7.7.0
+    network_mode: "host"
+    environment:
+      discovery.type: single-node
+    ports:
+      - 9200:9200
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+  postgres:
+    image: postgres
+    network_mode: "host"
+    environment:
+      POSTGRES_PASSWORD: "postgres"
+      POSTGRES_USER: "postgres"
+  mongodb:
+    image: mongo:4
+    network_mode: "host"

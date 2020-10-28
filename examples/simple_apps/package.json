@@ -1,0 +1,21 @@
+{
+  "name": "simple_apps",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:service1": "node src/service_1",
+    "start:service2": "node src/service_2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.9.1",
+    "amqplib": "^0.6.0",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-router": "^9.4.0",
+    "mongodb": "^3.6.2",
+    "pg": "^8.4.2"
+  }
+}
