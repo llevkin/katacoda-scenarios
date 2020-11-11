@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "nyc --reporter=lcov mocha test/test",
+    "test:service1": "nyc --reporter=lcov mocha test/service_1 -- --exit",
+    "test:service2": "nyc --reporter=lcov mocha test/service_2 -- --exit",
     "start:service1": "node src/service_1",
-    "start:service2": "node src/service_2"
+    "start:service2": "node src/service_2",
+    "coverage": "http-server coverage/lcov-report"
   },
   "author": "",
   "license": "ISC",
@@ -17,5 +21,12 @@
     "koa-router": "^9.4.0",
     "mongodb": "^3.6.2",
     "pg": "^8.4.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "http-server": "^0.12.3",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "superagent": "^6.1.0"
   }
 }
