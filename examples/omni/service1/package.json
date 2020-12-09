@@ -2,11 +2,11 @@
   "name": "service1",
   "version": "0.0.0",
   "description": "Omni Demo project",
-  "main": "src/index.js",
+  "main": "index.js",
   "author": "llevkin",
   "license": "ISC",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "@omni/core": "^0.5.1",

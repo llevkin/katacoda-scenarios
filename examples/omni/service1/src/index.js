@@ -9,4 +9,4 @@ class App extends Module() {
 
 }
 
-App.$run();
+module.exports = App;

@@ -10,8 +10,6 @@ services:
     network_mode: "host"
     environment:
       discovery.type: single-node
-    ports:
-      - 9200:9200
     ulimits:
       memlock:
         soft: -1
